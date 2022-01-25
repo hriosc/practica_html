@@ -12,18 +12,22 @@ body {
 
 .explicacion {
     background-color: #6d93e6;
-    height: 600px;
+    height: auto;
     padding: 50px;
     /* gap: 30px; esta propiedad también se puede usar*/
-
+    text-align: center;
 }
 
-.explicacion img {
-    width: 800px;
-    height: 500px;
+.cards img {
+    max-width: 100%;
+    height: 100%;
     margin: auto;
     border-radius:25px;
+    
 }
+
+
+
 
 .componentes {
     text-align: center;
@@ -36,12 +40,7 @@ body {
     padding: 20px;
 }
 
-.cards img {
-    width: 400px;
-    height: 400px;
-    margin: auto;
-    border-radius:25px;
-}
+
 
 .cards p {
     color: aliceblue;
@@ -49,25 +48,27 @@ body {
 
 
 
-@media (max-width: 480px) {
+@media (min-width: 600px)  {
     .explicacion {
-        background-color: #6d93e6;
-        height: 350px;
-        margin: auto;
-        /* gap: 30px; esta propiedad también se puede usar*/
-    
+        background-color: #6d93e6;  
     }
 
     .explicacion img {
-        width: 380px;
-        height: 250px;
-        border-radius:0px;
-        
-    }
-    .cards img {
-        width: 200px;
-        height: 200px;
+        width: 600px;
+        height: 400px;
         margin: auto;
         border-radius:25px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .explicacion {
+        background-color: #101620;  
+    }
+    .explicacion img {
+        width: 300px;
+        height: 200px;
+        
     }
 }
