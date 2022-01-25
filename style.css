@@ -1,0 +1,73 @@
+body {
+    background-color: #6d93e6;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    
+    text-align: center;
+    margin: 40px;
+}
+
+.explicacion {
+    background-color: #6d93e6;
+    height: 600px;
+    padding: 50px;
+    /* gap: 30px; esta propiedad también se puede usar*/
+
+}
+
+.explicacion img {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius:25px;
+}
+
+.componentes {
+    text-align: center;
+
+}
+
+.cards {
+    background-color: #14306d;
+    margin: 50px;
+    padding: 20px;
+}
+
+.cards img {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius:25px;
+}
+
+.cards p {
+    color: aliceblue;
+}
+
+
+
+@media (max-width: 480px) {
+    .explicacion {
+        background-color: #6d93e6;
+        height: 350px;
+        margin: auto;
+        /* gap: 30px; esta propiedad también se puede usar*/
+    
+    }
+
+    .explicacion img {
+        width: 380px;
+        height: 250px;
+        border-radius:0px;
+        
+    }
+    .cards img {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        border-radius:25px;
+    }
+}

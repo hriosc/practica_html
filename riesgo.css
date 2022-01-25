@@ -1,0 +1,30 @@
+body {
+    background-color: #6d93e6;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.forma {
+    width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.opciones {
+    width: 200px;
+}
+
+.table {
+    border-radius: 25px;
+    overflow: hidden;
+}
